@@ -16,7 +16,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
     <div
       className={`fixed inset-y-0 left-0 transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
-      } transition-transform duration-300 ease-in-out lg:relative md:relative lg:translate-x-0 md:translate-x-0 z-30 lg:z-0 md:z-0 w-4/5 lg:w-1/5 md:1/5 p-4 flex flex-col bg-black`}
+      } transition-transform duration-300 ease-in-out lg:translate-x-0 z-30 w-4/5 lg:w-1/5 p-4 flex flex-col bg-black`}
     >
       <div className="mb-4">
         <Image

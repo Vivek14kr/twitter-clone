@@ -11,9 +11,11 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen bg-black text-white flex flex-row">
+    <div className="relative min-h-screen bg-black text-white flex">
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-      <MainBox />
+      <div className="flex-grow lg:ml-[20%] lg:mr-[380px] mt-12 lg:mt-0 md:mt-0 sm:p-0 md:p-4 lg:p-4 overflow-y-auto">
+        <MainBox />
+      </div>
       <RightSidebar />
       {sidebarOpen && (
         <div
@@ -23,7 +25,7 @@ export default function Home() {
       )}
       {!sidebarOpen && (
         <button
-          className="fixed top-4 left-4 z-30 lg:hidden md:hidden bg-black"
+          className="fixed top-4 left-4 z-30 lg:hidden  bg-black"
           onClick={toggleSidebar}
         >
           <svg

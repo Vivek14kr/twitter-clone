@@ -1,27 +1,20 @@
-import React from 'react'
-import {
-  BellIcon,
-  EnvelopeIcon,
-  UserIcon,
-  CogIcon,
-} from "@heroicons/react/24/outline";
-import WestIcon from "@mui/icons-material/West";
-import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
-import { HomeIcon } from "@heroicons/react/24/solid";
-import Logo from "../assets/logo.png";
+import React from "react";
+import SearchIcon from "@mui/icons-material/Search";
 import Image from "next/image";
-import Frog from "../assets/frog.png";
 import Rectange from "../assets/Rectangle.png";
 import UltraStock from "../assets/ultrastock.png";
-import SearchIcon from "@mui/icons-material/Search";
 import RightMuscle from "../assets/right.png";
 import LeftMuscle from "../assets/left.png";
-
 import Taz from "../assets/taz.png";
 import KingOfStock from "../assets/king.png";
+import Frog from "../assets/frog.png";
+
 function RightSidebar() {
   return (
-    <div className="hidden lg:block md:block w-full lg:w-2/5 md:w-2/5 p-4">
+    <div
+      style={{ width: "400px" }}
+      className="hidden lg:block fixed inset-y-0 right-0 p-4 bg-black"
+    >
       <div className="relative w-full max-w-md mx-auto">
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
           <SearchIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
@@ -33,11 +26,11 @@ function RightSidebar() {
         />
       </div>
       <div className="bg-black-900 border border-gray-500 p-4 rounded-[16px] mt-4 mb-4">
-        <div className=" space-y-2">
-          <div className="ml-4 flex items-center relative  w-fit">
+        <div className="space-y-2">
+          <div className="ml-4 flex items-center relative w-fit">
             <Image
               src={RightMuscle}
-              className="w-5 h-5 absolute right-[-20px] "
+              className="w-5 h-5 absolute right-[-20px]"
               alt="left"
             />
             <Image
@@ -48,18 +41,15 @@ function RightSidebar() {
                 height: "40px",
               }}
             />
-
             <Image
               src={LeftMuscle}
-              className="w-5 h-5  absolute left-[-20px]"
+              className="w-5 h-5 absolute left-[-20px]"
               alt="right"
             />
           </div>
           <div className="flex gap-4">
-            <Image src={Rectange} alt="cat" className="w-20 h-20 " />
-
+            <Image src={Rectange} alt="cat" className="w-20 h-20" />
             <div>
-              {" "}
               <p>KITTYANN Token</p>
               <p className="text-yellow-500">$KITTYANN</p>
               <p className="text-blue-500">Created by @bonk20_solana</p>
@@ -70,11 +60,11 @@ function RightSidebar() {
         </div>
       </div>
       <div className="bg-black-900 border border-gray-500 p-4 rounded-[16px] mt-4 mb-4">
-        <div className=" space-y-2">
-          <div className="ml-4 flex items-center relative  w-fit">
+        <div className="space-y-2">
+          <div className="ml-4 flex items-center relative w-fit">
             <Image
               src={Taz}
-              className="w-5 h-5 absolute left-[-10px] top-[-10px] "
+              className="w-5 h-5 absolute left-[-10px] top-[-10px]"
               alt="left"
             />
             <Image
@@ -99,9 +89,8 @@ function RightSidebar() {
                   <p>Building in</p>
                 </div>
               </div>
-
-              <button className=" bg-white-500 text-black bg-white  px-4 py-1 rounded-full">
-                <p className="shadow-lg  shadow-black-500">Follow</p>
+              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+                <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
             </div>
             <div className="flex w-full justify-between">
@@ -116,11 +105,10 @@ function RightSidebar() {
                   <p>Building in</p>
                 </div>
               </div>
-
-              <button className=" bg-white-500 text-black bg-white  px-4 py-1 rounded-full">
-                <p className="shadow-lg  shadow-black-500">Follow</p>
+              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+                <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
-            </div>{" "}
+            </div>
             <div className="flex w-full justify-between">
               <div className="flex items-center gap-4">
                 <Image
@@ -133,9 +121,8 @@ function RightSidebar() {
                   <p>Building in</p>
                 </div>
               </div>
-
-              <button className=" bg-white-500 text-black bg-white  px-4 py-1 rounded-full">
-                <p className="shadow-lg  shadow-black-500">Follow</p>
+              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+                <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
             </div>
           </div>
