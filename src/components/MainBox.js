@@ -23,14 +23,16 @@ import CoinItem from './CoinItem';
 
 function MainBox() {
   return (
-    <div className="w-full lg:w-3/5 p-0">
+    <div className="w-full lg:w-3/5 mt-12 lg:mt-0 md:mt-0  p-0">
       <div className="space-y-4">
-        <WestIcon
-          className="cursor-pointer mt-4"
-          style={{
-            color: "white",
-          }}
-        />
+        <div className="hidden lg:block md:block  mt-4 ">
+          <WestIcon
+            className="cursor-pointer "
+            style={{
+              color: "white",
+            }}
+          />
+        </div>
         {/* Profile Header */}
         <div className="flex flex-col justify-center gap-4 space-x-4 p-2 pb-0 mb-0 bg-black-900 rounded-lg">
           <div

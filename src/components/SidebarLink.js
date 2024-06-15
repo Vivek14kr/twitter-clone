@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function SidebarLink({ icon, label }) {
   return (
-    <div className=" cursor-pointer flex items-center space-x-4 hover:bg-gray-800 p-2 rounded-md">
+    <div className="flex items-center space-x-2 cursor-pointer hover:bg-gray-800 p-2 rounded">
       {icon}
-      <span className='hidden lg:block md:block'>{label}</span>
+      <span>{label}</span>
     </div>
   );
 }
 
-export default SidebarLink
+export default SidebarLink;

@@ -21,7 +21,7 @@ import Taz from "../assets/taz.png";
 import KingOfStock from "../assets/king.png";
 function RightSidebar() {
   return (
-    <div className="hidden lg:block w-full lg:w-2/5 p-4">
+    <div className="hidden lg:block md:block w-full lg:w-2/5 md:w-2/5 p-4">
       <div className="relative w-full max-w-md mx-auto">
         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
           <SearchIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
