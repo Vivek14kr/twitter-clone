@@ -92,6 +92,7 @@ function RightSidebar() {
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       width: "140px",
+                      color: "#71767B",
                       maxWidth: "150px", // Adjust this value as needed
                     }}
                   >
@@ -124,6 +125,7 @@ function RightSidebar() {
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       width: "140px",
+                      color: "#71767B",
                       maxWidth: "150px", // Adjust this value as needed
                     }}
                   >
@@ -156,6 +158,7 @@ function RightSidebar() {
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       width: "140px",
+                      color: "#71767B",
                       maxWidth: "150px", // Adjust this value as needed
                     }}
                   >
