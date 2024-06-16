@@ -39,7 +39,20 @@ function Sidebar({ isOpen, toggleSidebar }) {
         <SidebarLink icon={<CogIcon className="w-6 h-6" />} label="Settings" />
       </nav>
       <button className="mt-4 bg-yellow-500 text-white font-extrabold px-4 py-2 rounded-full hidden lg:block">
-        <p className="shadow-lg shadow-black-500">Create a Coin</p>
+        <p
+          style={{
+            textShadow: "0px 5px 4px rgba(0, 0, 0, 0.5)",
+            fontSize: "17px",
+            fontFamily: "Inter",
+            WebkitTextStroke: "1px rgba(7, 7, 7, 1)",
+         
+            fontWeight:"600",
+            lineHeight:"20px",
+            display: "inline-block",
+          }}
+        >
+          Create a Coin
+        </p>
       </button>
       <div className="w-full hidden lg:block">
         <div className="flex mt-4 ml-2 items-center gap-2">

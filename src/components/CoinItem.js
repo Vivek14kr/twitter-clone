@@ -14,8 +14,20 @@ function CoinItem() {
         <Image src={Rectange} alt="Kittyann" className="w-16 h-16 " />
         <div>
           <h3 className="font-bold">KITTYANN Token</h3>
-          <p>100 $KITTYANN (0.1 ETH)</p>
-          <p>Rewards: 0.1 ETH</p>
+          <p
+            style={{
+              color: "#FBC025",
+            }}
+          >
+            100 $KITTYANN (0.1 ETH)
+          </p>
+          <p
+            style={{
+              color: "#71767B",
+            }}
+          >
+            Rewards: 0.1 ETH
+          </p>
         </div>
       </div>
     </div>

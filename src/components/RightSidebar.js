@@ -77,55 +77,121 @@ function RightSidebar() {
             />
           </div>
           <div className="flex flex-col w-full gap-4">
-            <div className="flex w-full justify-between">
-              <div className="flex items-center gap-4">
+            <div className="flex w-full justify-between items-center">
+              <div className="flex items-center gap-2">
                 <Image
                   src={Frog}
                   alt="Logo"
                   className="w-12 h-10 rounded-full ml-2"
                 />
-                <div>
+                <div className="max-w-xs">
                   <p>@PhysicsToday</p>
-                  <p>Building in</p>
+                  <p
+                    style={{
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      width: "140px",
+                      maxWidth: "150px", // Adjust this value as needed
+                    }}
+                  >
+                    Building in the SocialFi sdkfj sdlf sfs sdjf skdljfls fjsdlk
+                    f
+                  </p>
                 </div>
               </div>
-              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+              <button
+                style={{
+                  height: "32px",
+                }}
+                className="bg-white-500 text-black bg-white px-4 py-1 rounded-full"
+              >
                 <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
-            </div>
-            <div className="flex w-full justify-between">
-              <div className="flex items-center gap-4">
+            </div>{" "}
+            <div className="flex w-full justify-between items-center">
+              <div className="flex items-center gap-2">
                 <Image
                   src={Frog}
                   alt="Logo"
                   className="w-12 h-10 rounded-full ml-2"
                 />
-                <div>
+                <div className="max-w-xs">
                   <p>@PhysicsToday</p>
-                  <p>Building in</p>
+                  <p
+                    style={{
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      width: "140px",
+                      maxWidth: "150px", // Adjust this value as needed
+                    }}
+                  >
+                    Building in the SocialFi sdkfj sdlf sfs sdjf skdljfls fjsdlk
+                    f
+                  </p>
                 </div>
               </div>
-              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+              <button
+                style={{
+                  height: "32px",
+                }}
+                className="bg-white-500 text-black bg-white px-4 py-1 rounded-full"
+              >
                 <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
-            </div>
-            <div className="flex w-full justify-between">
-              <div className="flex items-center gap-4">
+            </div>{" "}
+            <div className="flex w-full justify-between items-center">
+              <div className="flex items-center gap-2">
                 <Image
                   src={Frog}
                   alt="Logo"
                   className="w-12 h-10 rounded-full ml-2"
                 />
-                <div>
+                <div className="max-w-xs">
                   <p>@PhysicsToday</p>
-                  <p>Building in</p>
+                  <p
+                    style={{
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      width: "140px",
+                      maxWidth: "150px", // Adjust this value as needed
+                    }}
+                  >
+                    Building in the SocialFi sdkfj sdlf sfs sdjf skdljfls fjsdlk
+                    f
+                  </p>
                 </div>
               </div>
-              <button className="bg-white-500 text-black bg-white px-4 py-1 rounded-full">
+              <button
+                style={{
+                  height: "32px",
+                }}
+                className="bg-white-500 text-black bg-white px-4 py-1 rounded-full"
+              >
                 <p className="shadow-lg shadow-black-500">Follow</p>
               </button>
-            </div>
+            </div>{" "}
           </div>
+        </div>
+      </div>
+      <div style={{}} className="w-full flex justify-center">
+        <div
+          style={{
+            fontSize: "13px",
+            color: "#71767B",
+            display: "flex",
+
+            flexWrap: "wrap",
+            columnGap: "15px",
+            rowGap: "2px",
+          }}
+          className=""
+        >
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p> <p>Cookie Policy</p> <p>Accessibility</p>{" "}
+          <p>Ads info</p> <p>More</p> <p>© 2024 X Corp.</p>
         </div>
       </div>
     </div>
